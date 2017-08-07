@@ -15,5 +15,15 @@
 //= require bootstrap-sprockets
 //= require turbolinks
 //= require_tree 
+//= require moment 
+//= require fullcalendar
+//= require fullcalendar/gcal
 
-
+$(document).ready(function() {
+    
+    $('#calendar').fullCalendar({
+   
+        
+    });
+    
+});

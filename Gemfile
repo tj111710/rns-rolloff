@@ -43,6 +43,10 @@ gem 'stripe', '1.48.0'
 # Use FIGARO for ENV variables
 gem 'figaro', '1.1.1'
 
+#Use FullCaldendar to display calendar
+gem 'fullcalendar-rails'
+gem 'momentjs-rails'
+
 
 
 group :development, :test do
